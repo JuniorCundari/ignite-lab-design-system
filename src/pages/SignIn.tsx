@@ -11,10 +11,10 @@ import { Logo } from "../Logo";
 export function SignIn() {
   const [isUserSignedIn, setIsUserSignedIn] = useState(false);
 
-  async function handleSignIn(event: FormEvent) {
+  function handleSignIn(event: FormEvent) {
     event.preventDefault();
 
-    await axios.post('/sessions', {
+    axios.post('/sessions', {
       email: 'junior@email.com.br',
       password: '12345678',
     })
