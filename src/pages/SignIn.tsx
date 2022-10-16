@@ -6,6 +6,7 @@ import { Checkbox } from "../components/Checkbox";
 import { Heading } from "../components/Heading";
 import { Text } from "../components/Text";
 import { TextInput } from "../components/TextInput";
+import { SignInSocialMedia } from "../components/SignInSocialMedia"
 import { Logo } from "../Logo";
 
 export function SignIn() {
@@ -78,6 +79,8 @@ export function SignIn() {
         <Text asChild size="sm">
           <a href="#" className="text-gray-400 underline hover:text-gray-200">Não possui conta? Crie uma agora!</a>
         </Text>
+        <Text size="sm" className="flex justify-center items-center before:content-[''] before:block before:h-[2px] before:min-w-[80px] before:mr-4 before:bg-cyan-300 before:rounded after:content-[''] after:block after:h-[2px] after:min-w-[80px] after:ml-4 after:bg-cyan-300 after:rounded">ou entre com</Text>
+        <SignInSocialMedia href="#">GitHub</SignInSocialMedia>
       </footer>
     </div>
   );
