@@ -8,9 +8,12 @@ import { Text } from "../components/Text";
 import { TextInput } from "../components/TextInput";
 import { SignInSocialMedia } from "../components/SignInSocialMedia"
 import { Logo } from "../Logo";
+import { Eye } from "../Eye";
+import { CloseEye } from "../CloseEye";
 
 export function SignIn() {
   const [isUserSignedIn, setIsUserSignedIn] = useState(false);
+  const [passwordVisibility, setPasswordVisibility] = useState(false);
 
   function handleSignIn(event: FormEvent) {
     event.preventDefault();
@@ -21,6 +24,10 @@ export function SignIn() {
     })
 
     setIsUserSignedIn(true);
+  }
+
+  function handlePasswordVisibility() {
+    setPasswordVisibility(!passwordVisibility)
   }
 
   return (
@@ -58,7 +65,10 @@ export function SignIn() {
               <Lock />
             </TextInput.Icon>
 
-            <TextInput.Input type="password" id="password" placeholder="***"/>
+            <TextInput.Input type={passwordVisibility ? "text" : "password"} id="password" placeholder="***"/>
+            <div onClick={handlePasswordVisibility}>
+              { passwordVisibility === true ? <Eye /> : <CloseEye /> }
+            </div>
           </TextInput.Root>
         </label>
 
