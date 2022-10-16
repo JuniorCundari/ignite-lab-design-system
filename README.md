@@ -7,7 +7,8 @@
 Este projeto foi desenvolvido durante a semana do Ignite Lab 3° edição. O projeto consiste na criação do Design System no Figma 
 e o desenvolvimento do mesmo em React e Storybook.
 
-Para visualizar o projeto [Clique aqui](https://juniorcundari.github.io/ignite-lab-design-system/?path=/story/components-button--default)
+Para visualizar o projeto no Storybook [Clique aqui.](https://juniorcundari.github.io/ignite-lab-design-system/?path=/story/components-button--default)<br/>
+Para visualizar o projeto na Web [Clique aqui.](https://ignite-lab-design-system-dusky.vercel.app/)
 
 <div align="center" >
   <img width="900px" src="https://user-images.githubusercontent.com/88779658/195996150-52071b9c-7099-4f61-8784-325596df1139.png" />
