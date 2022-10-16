@@ -1,0 +1,2 @@
+import{S as o}from"./SignInSocialMedia.20626eed.js";import"./index.module.3dbc29a6.js";import"./index.9c5581c9.js";import"./iframe.4b7c2ea5.js";import"./clsx.m.256e9345.js";import"./jsx-runtime.93c69e58.js";const p={title:"Components/SignInSocialMedia",component:o,args:{children:"SignIn with an account"},argTypes:{}},s={},c=["Default"];export{s as Default,c as __namedExportsOrder,p as default};
+//# sourceMappingURL=SignInSocialMedia.stories.c00fcf34.js.map
