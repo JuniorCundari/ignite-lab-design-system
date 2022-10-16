@@ -11,7 +11,7 @@ Para visualizar o projeto no Storybook [Clique aqui.](https://juniorcundari.gith
 Para visualizar o projeto na Web [Clique aqui.](https://ignite-lab-design-system-dusky.vercel.app/)
 
 <div align="center" >
-  <img width="900px" src="https://user-images.githubusercontent.com/88779658/195996150-52071b9c-7099-4f61-8784-325596df1139.png" />
+  <img width="900px" src="https://user-images.githubusercontent.com/88779658/196044853-927fbbea-424c-498e-9b68-b87e095635c3.png" />
 </div>
 
 ## :computer: Linguagens
